@@ -5,13 +5,13 @@
  * and then uppercase, followed by a new line.
  * Return: 0
  */
-int main(void)
+int main (void)
 {
 	char c = 'a';
 	
 	while (c <= 'z')
 	{
-		putchar(c);
+		putchar (c);
 		c++;
 	}
 
@@ -19,10 +19,10 @@ int main(void)
 
 	while (c <= 'Z')
 	{
-		putchar(c);
+		putchar (c);
 		c++;
 	}
 
-	putchar('\n');
+	putchar ('\n');
 	return (0);
 }
